@@ -30,6 +30,11 @@ public class Mover : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            Application.Quit();
+        }
+        
         var step = squareSpeed * Time.deltaTime;
         Target.position = Vector3.MoveTowards(Target.position, _goalTransform.position, step);
 
