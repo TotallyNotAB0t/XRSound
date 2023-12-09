@@ -1,4 +1,3 @@
-using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -8,12 +7,12 @@ public class UIManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI selectedMoleText;
     [SerializeField] private GameObject wallLeft, wallUp, wallRight;
     [SerializeField] private AudioSource leftMoleAudio, upMoleAudio, rightMoleAudio;
+    [SerializeField] private Renderer leftRenderer, upRenderer, rightRenderer;
 
     [SerializeField] private Toggle wallActivationToggle;
     [SerializeField] private Toggle soundActivationToggle;
     [SerializeField] private Slider soundVolume;
     [SerializeField] private Slider pitchVolume;
-
 
     private Moles _selectedMole;
     private GameObject _selectedWall;
@@ -24,7 +23,43 @@ public class UIManager : MonoBehaviour
         InitMoles();
     }
 
-    public void InitMoles()
+    public void OnLeftGone()
+    {
+        leftMoleAudio.mute = true;
+        leftRenderer.enabled = false;
+    }
+
+    public void OnUpGone()
+    {
+        upMoleAudio.mute = true;
+        upRenderer.enabled = false;
+    }
+
+    public void OnRightGone()
+    {
+        rightMoleAudio.mute = true;
+        rightRenderer.enabled = false;
+    }
+
+    public void OnLeftAppear()
+    {
+        leftMoleAudio.mute = false;
+        leftRenderer.enabled = true;
+    }
+
+    public void OnUpAppear()
+    {
+        leftMoleAudio.mute = false;
+        upRenderer.enabled = true;
+    }
+
+    public void OnRightAppear()
+    {
+        rightMoleAudio.mute = false;
+        rightRenderer.enabled = true;
+    }
+
+    private void InitMoles()
     {
         _selectedMole = Moles.LMole;
         leftMoleAudio.enabled = true;
@@ -32,14 +67,6 @@ public class UIManager : MonoBehaviour
         rightMoleAudio.enabled = true;
         UpdateObjects();
     }
-
-    /*public void OnLeftVisible()
-    {
-        leftMoleAudio.enabled = false;
-
-    }*/
-
-
 
     public void UpdateObjects()
     {

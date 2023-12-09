@@ -587,7 +587,9 @@ MonoBehaviour:
   UR: {fileID: 1168139157}
   DR: {fileID: 1330565314}
   DL: {fileID: 172595090}
-  speed: 2
+  squareSpeed: 5
+  speed: 7
+  sensitivity: 5
 --- !u!1 &1272361440
 GameObject:
   m_ObjectHideFlags: 0

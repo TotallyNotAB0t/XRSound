@@ -13,8 +13,8 @@ public class MoleCollision : MonoBehaviour
 
     private void OnCollisionEnter()
     {
-        _audioSource.Play();
-        _spriteRenderer.enabled = false;
+        //_audioSource.Play();
+        //_spriteRenderer.enabled = false;
     }
 
     private void Update()
@@ -24,6 +24,7 @@ public class MoleCollision : MonoBehaviour
 
     private void OnCollisionExit()
     {
-        _spriteRenderer.enabled = true;
+        //_spriteRenderer.enabled = true;
+        //_audioSource.Stop();
     }
 }
