@@ -16,7 +16,7 @@ This is a really quick way to test the audio spatialization on the computer and 
 # AR Scene
 
 Here is an example of what can be done (sound needed) :
-https://github.com/TotallyNotAB0t/XRSound/assets/85309955/c2e83adc-1d4b-4fca-8b5f-7c2397fb8b5f
+![Demo](https://github.com/TotallyNotAB0t/XRSound/assets/85309955/c2e83adc-1d4b-4fca-8b5f-7c2397fb8b5f)
 
 This is where the fun begins.
 
