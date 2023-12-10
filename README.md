@@ -51,7 +51,7 @@ The AR scene is where the real fun begins! Here's what you can do (sound require
      - **Modify Volume**
      - **Modify Pitch**
 
-> **Note** : modifying the pitch this will also create a desynchronisation between the other moles, use at your own risks.  
+> **Note** : modifying the pitch will also create a desynchronisation between the other moles, use at your own risks.  
 
 ## This is pretty much all there is to do.
 Thanks for passing by.
