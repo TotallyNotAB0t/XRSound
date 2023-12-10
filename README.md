@@ -19,11 +19,11 @@ Additional functionality:
 - While this scene primarily serves as a quick test for audio spatialization on the computer, it's not the focal point of the project.
 
 ## AR Scene
-The AR scene is where the real fun begins! Here's what you can do (sound required): [Demo](https://github.com/TotallyNotAB0t/XRSound/assets/85309955/c2e83adc-1d4b-4fca-8b5f-7c2397fb8b5f)
+The AR scene is where the real fun begins! Here's what you can do (sound required): [Demo](https://drive.google.com/file/d/1bAaKD3Tc6uA5Z4wJqYtyfNvEWL3Yz5xx/view?usp=sharing)
 
 ### Setup Instructions:
 1. **Vuforia Markers**: You'll need four Vuforia markers:
-   - The first marker is an A4 format, positioned at the center. Here is the [file](https://github.com/TotallyNotAB0t/XRSound/assets/85309955/c83e0f0a-e1c0-407d-a6e8-b31a045f3c22).
+   - The first marker is an A4 format, positioned at the center. Here is the [file](https://drive.google.com/file/d/1FN74YKgntXEf8v9C3SqrSgmHMn3QvDcY/view?usp=sharing).
    - The remaining three markers represent the Drone, Fissure, and Oxygen samples from Vuforia.
 
 2. **UI and Landscape Mode**:
